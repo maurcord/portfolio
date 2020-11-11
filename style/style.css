@@ -3,7 +3,7 @@
 }
 .about-me::before {
    content: "";
-    background-image: url('/images/dc.jpg');
+    background-image: url('../images/dc.jpg');
     background-size: cover;
     position: absolute;
     top: 0px;
