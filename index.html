@@ -14,20 +14,17 @@
   <body>
    
  
-    <section class=" intro hero is-medium is-dark ">
+    <section class="intro hero is-medium is-black ">
       <nav class="navbar"  role="navigation" aria-label="main navigation">
         <div id="navbarBasicExample " class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item">
-              Home
-            </a>
-            <a class="navbar-item">
+            <a class="navbar-item" href="#project">
               Projects
             </a>
             <a class="navbar-item" href="">
               Resume
             </a>
-            <a class="navbar-item">
+            <a class="navbar-item" href="#contact">
               Contact
             </a>
               </div>
@@ -40,7 +37,7 @@
       <div class="container is-light"> 
         <div class="about-me2 columns">
             
-          <div class="column">
+          <div class="about column">
               <h1 class="title">
                Mauricio Cordeiro
               </h1> 
@@ -59,39 +56,56 @@
  </div>
   </section>
 
-<section class="section hero is-light">
-  <div class="container box">
-    <h1 class="title">Projects</h1>
+<section class="section hero is-black">
+  <div class="container">
+    <h1 id="project" class="title">Projects</h1>
     <div>     
     </div>
     <div class="columns">
     <div class="column">
-      <div class="notification is-warning">
+      <div class="notification is-light">
         <figure class="image is-240x240 p-2">
+          <a href="https://developerverse.netlify.app/">
           <img src="images/1.png">
+          </a>
+          
       </figure>
-        <h1 class="title is-size-4">DeveloperVerse</h1>
+        <h1 id="dev" class="title is-size-4">DeveloperVerse</h1>
         <p>A full stack social media website, where developers can interact and share their work with other developers. 
-      
       </p>
+      <div class="buttons">
+        <a class="button is-link is-warning" href="https://developerverse.netlify.app/" target="_blank">Deployed Site</a>
+        <a class="button is-link is-warning" href="https://github.com/SEI-39/developerverse" target="_blank">Git Repository</a>
+      </div>
+      
     </div>
     </div>
     <div class="column">
-      <div class="notification is-warning">
+      <div class="notification is-light">
         <figure class="image is-240x240 p-2">
           <img src="images/2.png">
       </figure>
-      <h1 class="title is-size-4">Cocktail Flash Cards!</h1>
+      <h1 id="cards" class="title is-size-4">Cocktail Flash Cards!</h1>
       <p>This was created using HTML,CSS, and JavaScript! Guess the ingredients for each drink!</p>
+      <div class="buttons">
+        <a class="button is-link is-warning" href="https://maurcord.github.io/Flash-Card/" target="_blank">Deployed Site</a>
+        <a class="button is-link is-warning" href="https://github.com/maurcord/Flash-Card" target="_blank">Git Repository</a>
+      </div>
+      
     </div>
+
     </div>
     <div class="column">
-      <div class="notification is-warning">
+      <div class="notification is-light">
         <figure class="image is-240x240 p-2">
           <img src="images/3.png">
       </figure>
-      <h1 class="title is-size-4">Website Mock Up</h1>
+      <h1 id="mock" class="title is-size-4">Website Mock Up</h1>
       <p>This was created using HTML, and CSS. A website for a restaurant to show off their food and menu!</p>
+      <div class="buttons">
+        <a class="button is-link is-warning" href="https://maurcord.github.io/Project1/" target="_blank">Deployed Site</a>
+        <a class="button is-link is-warning" href="https://github.com/maurcord/Project1" target="_blank">Git Repository</a>
+      </div>
     </div>
     </div>
     </div>
@@ -135,16 +149,19 @@
   </div>
 </container> 
 </section>
-<section class="hero is is-dark">
-  
-  
-  <div class="hero-body is-small">
+<footer id="contact" class="hero footer is-black">
+  <div class="content has-text-centered">
     <h1 class="title">Contact</h1>
-    <p class="subtitle">Github</p>
-    <p class="subtitle">LinkedIn</p>
-    <p class="subtitle">Photography</p>
+    <p>
+      <a href="https://github.com/maurcord" target="_blank">Github</a>. 
+      <a href="https://www.linkedin.com/in/cordeiro-m/"target="_blank">LinkedIn</a>.
+      <a href="https://www.mauriciocordeiro.com"target="_blank">Photography</a>.
+    </p>
+    <a href="mailto:mauricio.cord12@gmail.com?subject = Contact &body = Message">Email</a> <br>
+    <a href="https://www.instagram.com/_maurici0_" target="_blank">Instagram</a>
+
   </div>
-  </section>
+</footer>
 
 
 

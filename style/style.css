@@ -17,3 +17,15 @@
     justify-content: center;
     align-items: center;
 }
+.about {
+    margin-top: 200px;
+}
+#dev {
+    color: black;
+}
+#mock {
+    color: black;
+}
+#cards {
+    color: black;
+}
