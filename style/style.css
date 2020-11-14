@@ -2,15 +2,18 @@
     position: relative;
 }
 .about-me::before {
-   content: "";
+    content: "";
     background-image: url('../images/dc.jpg');
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
     opacity: 0.25;
+
 }
 .intro {
     display: flex;
@@ -22,12 +25,15 @@
 }
 #dev {
     color: black;
+    border: 35px solid white;
 }
 #mock {
     color: black;
+    border: 35px solid white;
 }
 #cards {
     color: black;
+    border: 35px solid white;
 }
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
@@ -78,3 +84,4 @@
   footer {
       max-height: 200px;
   }
+ 
