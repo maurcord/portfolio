@@ -42,15 +42,15 @@
 }
 #dev {
     color: black;
-    border: 35px solid white;
+    border: 10px solid white;
 }
 #mock {
     color: black;
-    border: 35px solid white;
+    border: 10px solid white;
 }
 #cards {
     color: black;
-    border: 35px solid white;
+    border: 10px solid white;
 }
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
