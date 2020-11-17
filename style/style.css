@@ -15,6 +15,23 @@
     opacity: 0.25;
 
 }
+.prj {
+  position: relative;
+}
+.prj::before {
+  content: "";
+  background-image: url('../images/dc2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.25;
+
+}
 .intro {
     display: flex;
     justify-content: center;
@@ -83,5 +100,10 @@
   }
   footer {
       max-height: 200px;
+  }
+
+  .linkedin{
+    max-width: 50px;
+    max-height: 50px;
   }
  
