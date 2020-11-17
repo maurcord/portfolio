@@ -1,5 +1,9 @@
 .about-me{
     position: relative;
+    
+}
+.box {
+  opacity: 100%;
 }
 .about-me::before {
     content: "";
@@ -13,6 +17,20 @@
     bottom: 0px;
     left: 0px;
     opacity: 0.25;
+
+}
+.nav1{
+  position: fixed;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+} 
+#project {
+  margin-bottom: 150px;
 
 }
 .prj {
@@ -56,10 +74,9 @@
 .flip-card {
     background-color: transparent;
     width: 300px;
-    height: 180px;
+    height: 160px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
-  
   /* This container is needed to position the front and back side */
   .flip-card-inner {
     position: relative;
@@ -87,6 +104,7 @@
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     color: black;
+    background-image: url("images/1.png");
   }
   
   /* Style the back side */
@@ -97,13 +115,73 @@
   } 
   .card-info {
       color: black;
+      margin-top: 25px;
   }
-  footer {
+  /* footer {
       max-height: 200px;
-  }
+  } */
 
   .linkedin{
     max-width: 50px;
     max-height: 50px;
   }
- 
+ .email {
+   margin-top: 10px;
+ }
+  .links {
+    margin: 40px;
+  }
+ .name {
+   margin-top: 65px;
+ }
+ .fade-in {
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+
