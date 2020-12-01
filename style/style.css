@@ -5,6 +5,9 @@
 .box {
   opacity: 100%;
 }
+.project {
+  color: white;
+}
 .about-me::before {
     content: "";
     background-image: url('../images/dc.jpg');
@@ -31,11 +34,31 @@
 } 
 #project {
   margin-bottom: 150px;
+  color: white;
+
+}
+.project-container {
 
 }
 .prj {
   position: relative;
+  background-color: black;
 }
+.card{
+  max-width: 380px;
+  
+}
+.card-body {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  }
+.john {
+  color: black;
+}  
+
 .prj::before {
   content: "";
   background-image: url('../images/dc2.jpg');
@@ -58,6 +81,9 @@
 .about {
     margin-top: 200px;
 }
+.buttons {
+  padding: 15px;
+}
 #dev {
     color: black;
     border: 10px solid white;
@@ -69,6 +95,9 @@
 #cards {
     color: black;
     border: 10px solid white;
+}
+#skills{
+  padding: 25px;
 }
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
@@ -133,6 +162,9 @@
   }
  .name {
    margin-top: 65px;
+ }
+ .website {
+   color: black;
  }
  .fade-in {
   animation: fadeIn ease 4s;
