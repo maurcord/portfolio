@@ -1,8 +1,25 @@
+.intro {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  z-index: 1;
+}
+.hs {
+  z-index: 0;
+}
+.hs2 {
+  height: 325px;
+  width: 250px;
+  margin-right: 100px;
+  margin-top: 75px;
+}
+.info {
+  margin-left: 100px;
+}
 .about-me {
   position: relative;
 }
 .box {
-  opacity: 100%;
 }
 .project {
   color: white;
@@ -34,7 +51,18 @@
   margin-bottom: 150px;
   color: white;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+}
+/* .skills-box {
+  text-align: center;
+
+} */
 .project-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .prj {
   position: relative;
@@ -140,9 +168,9 @@
   color: black;
   margin-top: 25px;
 }
-/* footer {
-      max-height: 200px;
-  } */
+/* #contact {
+  height: 300px;
+} */
 
 .linkedin {
   max-width: 50px;
