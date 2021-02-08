@@ -2,28 +2,37 @@
   position: fixed;
   width: 100%;
   background-color: black;
-  z-index: 1;
+  z-index: 2;
+}
+.navbar {
+  color: white;
+}
+.navbar-item {
+  color: lightgrey;
 }
 .hs {
   z-index: 0;
 }
 .hs2 {
-  height: 325px;
+  height: 300px;
   width: 250px;
   margin-right: 100px;
-  margin-top: 75px;
 }
 .info {
-  margin-left: 100px;
+  margin-left: 50px;
+  margin-bottom: 300px;
 }
 .about-me {
   position: relative;
+  padding: 0;
+  margin-bottom: 0px;
 }
 .box {
 }
 .project {
   color: white;
 }
+
 .about-me::before {
   content: "";
   background-image: url("../images/dc.jpg");
@@ -64,23 +73,55 @@
   flex-direction: row;
   justify-content: space-around;
 }
-.prj {
+/* .prj {
   position: relative;
   background-color: black;
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+} */
+.prj {
+  background: black;
+  position: relative;
+  z-index: 1;
 }
+
+/* &::before,
+&::after {
+  background: inherit;
+  content: "";
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  -webkit-backface-visibility: hidden;
+}
+
+::before {
+  top: 0;
+  transform: skewY(1.5deg);
+  transform-origin: 10 0% 0;
+}
+
+::after {
+  bottom: 0;
+  transform: skewY(-1.5deg);
+  transform-origin: 100%;
+} */
+
 .card {
-  max-width: 380px;
+  /* max-width: 380px; */
 }
 .card-body {
-  height: 250px;
+  max-height: 275px;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.john {
-  color: black;
-}
 
+.has-text-start {
+}
 .prj::before {
   content: "";
   background-image: url("../images/dc2.jpg");
@@ -93,6 +134,7 @@
   bottom: 0px;
   left: 0px;
   opacity: 0.25;
+  background-color: black;
 }
 .intro {
   display: flex;
@@ -119,6 +161,10 @@
 }
 #skills {
   padding: 25px;
+}
+
+.footer {
+  background-color: black;
 }
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
@@ -188,14 +234,14 @@
 .website {
   color: black;
 }
-.fade-in {
+/* .fade-in {
   animation: fadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;
   -moz-animation: fadeIn ease 4s;
   -o-animation: fadeIn ease 4s;
   -ms-animation: fadeIn ease 4s;
-}
-@keyframes fadeIn {
+} */
+/* @keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -238,4 +284,4 @@
   100% {
     opacity: 1;
   }
-}
+} */
