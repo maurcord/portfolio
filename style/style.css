@@ -12,16 +12,16 @@
 }
 .hs {
   z-index: 0;
+  margin: 100px;
 }
 .hs2 {
   height: 300px;
   width: 250px;
-  margin-right: 100px;
 }
-.info {
+/* .info {
   margin-left: 50px;
   margin-bottom: 300px;
-}
+} */
 .about-me {
   position: relative;
   padding: 0;
