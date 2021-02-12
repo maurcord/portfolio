@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="has-navbar-fixed-top">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,22 +14,15 @@
   <body>
    
  
-    <section class="navbar intro hero is-medium is-black is-centered">
+    <!-- <section class="intro hero is-medium is-black is-centered"> -->
       
       
       <!-- HAMBURGER MENU-->
-      <!-- <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a> -->
+   
 
-
-      <nav class="navbar has-text-centered"  role="navigation" aria-label="main navigation">
-
-
-        <div id="navbarBasicExample " class="navbar-menu has-text-centered">
-          <div class="navbar-start has-text-centered">
+      <nav class="navbar is-active is-black is-fixed-top"  role="navigation" aria-label="main navigation">
+        <!-- <div id="navbarBasicExample " class="navbar-menu has-text-centered"> -->
+          <div class="navbar-brand">
             <a class="navbar-item" href="#project">
               Projects
             </a>
@@ -41,13 +34,17 @@
             </a>
             <a class="navbar-item" href="#contact">
               Contact
-            </a>
-              </div>
-            </div>
+            </a>  
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
           </div>
-  </section>
+      </nav>
+  <!-- </section> -->
   
-  <section class="hero is-large has-text-centered">
+  <section class="hero is-fullheight has-text-centered">
     <div class="about-me is-centered hero-body ">
       <div class="has-text-centered"> 
         <div class="columns ">
@@ -76,7 +73,7 @@
  
   </section>
 
-<section class="prj hero is-large">
+<section class="prj hero is-medium">
   <section class="hero-body">
     <h1 id="project" class="title has-text-centered is-size-1 is-uppercase">Projects</h1>
     
@@ -90,8 +87,8 @@
         </div>
         
         <div class="card-body has-text-centered">
-          <div class="card-content">
-              <div class="content has-text-centered">
+          <div class="card-content has-text-centered">
+              <div class="content ">
                <h1 class="title is-4">Developerverse</h1> 
                <p> A full stack project. A social media website, where developers can interact and share their work with other developers!</p>
                </div>
@@ -110,7 +107,7 @@
       <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img src="/images/Cocktail Quiz.png">
+              <img src="images/Cocktail Quiz.png">
             </figure>
           </div>  
           <div class="card-body has-text-centered">
